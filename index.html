@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Web3 Gaming Ops Playbook — BizAnyE</title>
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--txt:#f0f6fc;--mut:#8b949e;--blue:#2f81f7;--green:#3fb950;--gold:#f0b429}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:56px 20px 72px}
+  .kicker{color:var(--gold);letter-spacing:.22em;font-size:12px;text-transform:uppercase;margin:0 0 14px}
+  h1{font-size:42px;line-height:1.15;margin:0 0 14px}
+  h1 span{color:var(--blue)}
+  .sub{color:var(--mut);font-size:16px;line-height:1.7;max-width:640px;margin:0 0 26px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:40px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .stat b{display:block;font-size:24px;color:var(--green)}
+  .stat span{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}
+  h2{font-size:20px;margin:36px 0 14px}
+  a.chap{display:flex;gap:16px;align-items:baseline;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:12px;text-decoration:none;color:var(--txt)}
+  a.chap:hover{border-color:var(--blue)}
+  .n{color:var(--gold);font-weight:700;font-size:18px;min-width:34px}
+  .chap b{font-size:16px;display:block;margin-bottom:4px}
+  .chap p{margin:0;color:var(--mut);font-size:13.5px;line-height:1.55}
+  .cta{margin-top:40px;background:linear-gradient(135deg,#12233d,#0d1117);border:1px solid var(--blue);border-radius:12px;padding:24px}
+  .cta b{font-size:17px}
+  .cta p{color:var(--mut);line-height:1.6;margin:8px 0 0;font-size:14.5px}
+  .foot{color:var(--mut);font-size:13px;margin-top:36px;line-height:1.7}
+  a.inline{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="kicker">A field manual, not a course</p>
+  <h1>The Web3 Gaming<br><span>Ops Playbook</span></h1>
+  <p class="sub">How one operator actually ran multi-account Web3 gaming operations across two titles — the matrix discipline, the airdrop workflow, the asset-safety rules and the review loop — written from the working notes, not from theory.</p>
+
+  <div class="stats">
+    <div class="stat"><b>207</b><span>accounts · Pirate Nation</span></div>
+    <div class="stat"><b>≈ ¥1.62M</b><span>realized across two titles</span></div>
+    <div class="stat"><b>2</b><span>full case studies inside</span></div>
+    <div class="stat"><b>0</b><span>shortcuts that risk the assets</span></div>
+  </div>
+
+  <h2>Chapters</h2>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/01-account-matrix-operations.md">
+    <div class="n">01</div><div><b>Account-Matrix Operations</b>
+    <p>How a 200+ account fleet is structured, scheduled and kept consistent — tiers, roles, daily rhythm, and the bookkeeping that makes scale auditable instead of chaotic.</p></div>
+  </a>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/02-airdrop-campaign-workflow.md">
+    <div class="n">02</div><div><b>Airdrop Campaign Workflow</b>
+    <p>From first announcement to claim day: evaluating a campaign, allocating effort across the fleet, tracking eligibility, and converting points into realized value.</p></div>
+  </a>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/03-asset-safety-and-risk.md">
+    <div class="n">03</div><div><b>Asset Safety &amp; Risk Control</b>
+    <p>Wallet hygiene, approval discipline, and the rules that kept every account's assets intact through rugs, phishing waves and platform shutdowns.</p></div>
+  </a>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/04-metrics-and-review.md">
+    <div class="n">04</div><div><b>Metrics &amp; Review</b>
+    <p>The weekly review loop: what gets counted, what gets killed, and how a campaign's real hourly return decides whether the fleet stays or rotates.</p></div>
+  </a>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/05-case-pirate-nation.md">
+    <div class="n">05</div><div><b>Case Study — Pirate Nation</b>
+    <p>207 accounts, ≈ ¥600k realized. The full arc: entry logic, scaling decisions, the exit — and what the numbers looked like at each stage.</p></div>
+  </a>
+
+  <a class="chap" href="https://github.com/bizanye8/web3-gaming-ops-playbook/blob/main/docs/06-case-maplestory-n.md">
+    <div class="n">06</div><div><b>Case Study — MapleStory N</b>
+    <p>Dozens of accounts, ≈ ¥1.02M realized. A bigger title, a different economy, and the adjustments the second run demanded.</p></div>
+  </a>
+
+  <div class="cta">
+    <b>Read the source on GitHub</b>
+    <p>Every chapter lives in the repository as Markdown — fork it, diff it, argue with it: <a class="inline" href="https://github.com/bizanye8/web3-gaming-ops-playbook">github.com/bizanye8/web3-gaming-ops-playbook</a></p>
+  </div>
+
+  <p class="foot">Written by <a class="inline" href="https://github.com/bizanye8">BizAnyE</a> — Web3 operations &amp; community, founder of the Youjian game-asset trading platform. Numbers are realized results from the author's own operations; methods are shared for education, not as a guarantee of returns.</p>
+</div>
+</body>
+</html>
